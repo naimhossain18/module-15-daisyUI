@@ -351,7 +351,7 @@
       <!-- -----------------What Our Clients Say section/ slider ---------------- -->
       <section class="mt-28">
         <!-- -----------parent div---------- -->
-        <div>
+        <div class="space-y-10">
           <!-- -----------title div---------- -->
           <div class="text-center lg:max-w-[714px] mx-auto space-y-5">
             <h3 class="text-4xl font-extrabold text-dark-2 eb-garamond">
@@ -366,12 +366,43 @@
           <!-- ---------------slider------------- -->
           <div>
             <div
-              class="carousel w-full"
-              style="background-image: url(./images/slider-2.jpg)"
-              style="background-size: fit-content"
+              class="carousel bg-gradient-to-r from-orange-700 to-red-700 aspect-video w-full"
             >
-              <div id="slide1" class="carousel-item relative w-full">
-                <img src="" class="w-full" />
+              <!-- ----------------slide-1------ -->
+              <div
+                id="slide1"
+                class="carousel-item relative w-full"
+                style="
+                  background-image: url(./images/slider-1.jpg);
+                  background-position: center;
+                  background-size: cover;
+                "
+              >
+                <div
+                  class="flex flex-col items-center justify-center text-center flex-1 gap-7 pt-10"
+                >
+                  <div class="avatar">
+                    <div class="w-32 rounded-full">
+                      <img
+                        src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <h3 class="eb-garamond text-white text-2xl">Ab de Ve</h3>
+                    <p class="text-white">Cricketer</p>
+                  </div>
+
+                  <div class="">
+                    <p class="text-white hidden lg:block lg:w-[900px]">
+                      Contrary to popular belief, Lorem Ipsum is not simply
+                      random text. It has roots in a piece of classical Latin
+                      literature from 45 BC, making it over 2000 years old.
+                      Richard McClintock,
+                    </p>
+                  </div>
+                </div>
+
                 <div
                   class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
                 >
@@ -379,11 +410,41 @@
                   <a href="#slide2" class="btn btn-circle">❯</a>
                 </div>
               </div>
-              <div id="slide2" class="carousel-item relative w-full">
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
-                  class="w-full"
-                />
+              <!-- -----slide-2---------------- -->
+              <div
+                id="slide2"
+                class="carousel-item relative w-full"
+                style="
+                  background-image: url(./images/slider-2.jpg);
+                  background-position: center;
+                  background-size: cover;
+                "
+              >
+                <div
+                  class="flex flex-col items-center justify-center text-center flex-1 gap-7 pt-10"
+                >
+                  <div class="avatar">
+                    <div class="w-32 rounded-full">
+                      <img
+                        src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <h3 class="eb-garamond text-white text-2xl">Ab de Ve</h3>
+                    <p class="text-white">Cricketer</p>
+                  </div>
+
+                  <div class="">
+                    <p class="text-white hidden lg:block lg:w-[900px]">
+                      Contrary to popular belief, Lorem Ipsum is not simply
+                      random text. It has roots in a piece of classical Latin
+                      literature from 45 BC, making it over 2000 years old.
+                      Richard McClintock,
+                    </p>
+                  </div>
+                </div>
+
                 <div
                   class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
                 >
@@ -391,11 +452,41 @@
                   <a href="#slide3" class="btn btn-circle">❯</a>
                 </div>
               </div>
-              <div id="slide3" class="carousel-item relative w-full">
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-                  class="w-full"
-                />
+              <!-- ---slide-3--------------- -->
+              <div
+                id="slide3"
+                class="carousel-item relative w-full"
+                style="
+                  background-image: url(./images/slider-3.jpg);
+                  background-position: center;
+                  background-size: cover;
+                "
+              >
+                <div
+                  class="flex flex-col items-center justify-center text-center flex-1 gap-7 pt-10"
+                >
+                  <div class="avatar">
+                    <div class="w-32 rounded-full">
+                      <img
+                        src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <h3 class="eb-garamond text-white text-2xl">Ab de Ve</h3>
+                    <p class="text-white">Cricketer</p>
+                  </div>
+
+                  <div class="">
+                    <p class="text-white hidden lg:block lg:w-[900px]">
+                      Contrary to popular belief, Lorem Ipsum is not simply
+                      random text. It has roots in a piece of classical Latin
+                      literature from 45 BC, making it over 2000 years old.
+                      Richard McClintock,
+                    </p>
+                  </div>
+                </div>
+
                 <div
                   class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
                 >
@@ -403,11 +494,41 @@
                   <a href="#slide4" class="btn btn-circle">❯</a>
                 </div>
               </div>
-              <div id="slide4" class="carousel-item relative w-full">
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-                  class="w-full"
-                />
+              <!-- ---------------slide-4 -->
+              <div
+                id="slide4"
+                class="carousel-item relative w-full"
+                style="
+                  background-image: url(./images/banner.png);
+                  background-position: center;
+                  background-size: cover;
+                "
+              >
+                <div
+                  class="flex flex-col items-center justify-center text-center flex-1 gap-7 pt-10"
+                >
+                  <div class="avatar">
+                    <div class="w-32 rounded-full">
+                      <img
+                        src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <h3 class="eb-garamond text-white text-2xl">Ab de Ve</h3>
+                    <p class="text-white">Cricketer</p>
+                  </div>
+
+                  <div class="">
+                    <p class="text-white hidden lg:block lg:w-[900px]">
+                      Contrary to popular belief, Lorem Ipsum is not simply
+                      random text. It has roots in a piece of classical Latin
+                      literature from 45 BC, making it over 2000 years old.
+                      Richard McClintock,
+                    </p>
+                  </div>
+                </div>
+
                 <div
                   class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
                 >
@@ -535,7 +656,7 @@
           <!-- --------------parent div-2------- -->
           <div class="flex flex-col lg:flex-row gap-12">
             <!-- ---------------contact-card--div--- -->
-            <div class="grid grid-cols-1 gap-7 lg:gap-0 lg:grid-cols-2 flex-1">
+            <div class="grid grid-cols-1  gap-7 lg:gap-0 lg:grid-cols-2 flex-1">
               <!-- -----------card-1 -->
               <div
                 class="p-5 card bg-base-100 max-w-[285px] h-[285px] shadow-sm rounded-none bg-[#F3F3F3] border-r border-b border-slate-200"
@@ -589,7 +710,7 @@
               </div>
               <!-- -----------card-4 -->
               <div
-                class="p-5 card bg-base-100 max-w-[285px] h-[285px] shadow-sm rounded-none bg-[#F3F3F3]"
+                class="p-3 card bg-base-100 max-w-[285px] h-[285px] shadow-sm rounded-none bg-[#F3F3F3]"
               >
                 <figure class="px-10 pt-10">
                   <img src="./images/time.png" alt="" class="" />
